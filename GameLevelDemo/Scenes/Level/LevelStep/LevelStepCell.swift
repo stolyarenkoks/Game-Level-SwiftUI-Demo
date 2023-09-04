@@ -22,12 +22,12 @@ struct LevelStepCell: View {
         ZStack {
             roadView()
 
-            HStack(spacing: 0.0) {
+            HStack(spacing: .zero) {
                 Image("player-image")
                     .resizable()
                     .scaledToFit()
                     .aspectRatio(1.1, contentMode: .fit)
-                    .opacity(step.showPlayer ? 1.0 : 0.0)
+                    .opacity(step.showPlayer ? 1.0 : .zero)
 
                 Image(step.imageName)
                     .resizable()
@@ -37,7 +37,7 @@ struct LevelStepCell: View {
                 Image("start_line")
                     .resizable()
                     .scaledToFit()
-                    .opacity(step.showStartLine ? 1.0 : 0.0)
+                    .opacity(step.showStartLine ? 1.0 : .zero)
             }
         }
         .background(Color(step.backgroundColorName))

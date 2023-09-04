@@ -37,7 +37,7 @@ struct LevelStore {
             .init(stepType: .game, stepState: .finished, roadDirection: [.left, .right]),
             .init(stepType: .story, stepState: .finished, roadDirection: [.left, .right]),
             .init(stepType: .video, stepState: .finished, roadDirection: [.left, .right]),
-            .init(stepType: .exercise, stepState: .finished, roadDirection: [.left, .bottom]),
+            .init(stepType: .exercise, stepState: .finished, roadDirection: [.left, .bottom])
         ],
 
         .second: [
@@ -73,7 +73,7 @@ struct LevelStore {
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
-            .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .bottom]),
+            .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .bottom])
         ],
 
         .second: [
