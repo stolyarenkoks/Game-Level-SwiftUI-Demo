@@ -1,13 +1,25 @@
-# Dynamic Island Sample App
-_This project is not a Demo or example in terms of the codebase.
-It does not use Git Flow or adherence to all CodeIT Guidelines.
-This project has practical value in the form of a training example and implementation of a specific not trivial functionality or component._
-
-![Preview](preview.png)
+# Game Level SwiftUI Demo like Duolingo
+An example of a gaming UI similar to what is used in the Duolingo App is developed entirely natively using Swift and SwiftUI.
 
 ## Xcode and Swift version
 * Xcode 14.3.1 (latest)
 * Swift 5.8.1 (latest)
 
+## Technologies:
+- Swift
+- SwiftUI
+
+## Branches
+GitFlow is strictly enforced on this repository. [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+### Branch overview
+* master
+* develop
+* feature/name
+* hotfix/name
+
+### Git Flow:
+feature -> develop -> master
+
 ## License
-Copyright © 2023 CodeIT LLC. All rights reserved.
+Copyright © 2023 SKS. All rights reserved.

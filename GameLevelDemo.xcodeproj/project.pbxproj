@@ -170,6 +170,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = SKS;
 				TargetAttributes = {
 					C4D62F932A9DF4BC003A2EEF = {
 						CreatedOnToolsVersion = 14.3.1;

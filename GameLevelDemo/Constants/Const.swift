@@ -3,6 +3,7 @@
 //  GameLevelDemo
 //
 //  Created by Konstantin Stolyarenko on 04.09.2023.
+//  Copyright © 2023 SKS. All rights reserved.
 //
 
 // MARK: - Const
