@@ -1,13 +1,15 @@
 # Game Level SwiftUI Demo like Duolingo
 An example of a gaming UI similar to what is used in the Duolingo App is developed entirely natively using Swift and SwiftUI.
 
-## Xcode and Swift version
+![Preview](preview.png)
+
+## Technologies
+* Swift
+* SwiftUI
+
+## Versions
 * Xcode 14.3.1 (latest)
 * Swift 5.8.1 (latest)
-
-## Technologies:
-- Swift
-- SwiftUI
 
 ## Branches
 GitFlow is strictly enforced on this repository. [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
@@ -20,6 +22,10 @@ GitFlow is strictly enforced on this repository. [GitFlow](https://www.atlassian
 
 ### Git Flow:
 feature -> develop -> master
+
+## Demo
+
+![Demo](demo.mov)
 
 ## License
 Copyright © 2023 SKS. All rights reserved.

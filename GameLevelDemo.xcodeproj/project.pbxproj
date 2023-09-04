@@ -84,6 +84,7 @@
 			children = (
 				C4D62F9B2A9DF4BD003A2EEF /* Assets.xcassets */,
 				C4D62F9E2A9DF4BD003A2EEF /* Preview Assets.xcassets */,
+				C46A01F52AA608A20068F868 /* Design */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -111,6 +112,13 @@
 				C46A01EF2AA5FF1B0068F868 /* Const.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		C46A01F52AA608A20068F868 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 		C4D62F8B2A9DF4BC003A2EEF = {
