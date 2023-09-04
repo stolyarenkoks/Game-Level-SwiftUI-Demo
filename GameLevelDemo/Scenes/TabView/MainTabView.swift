@@ -1,0 +1,50 @@
+//
+//  MainTabView.swift
+//  GameLevelDemo
+//
+//  Created by Konstantin Stolyarenko on 29.08.2023.
+//
+
+import SwiftUI
+
+// MARK: - MainTabView
+
+struct MainTabView: View {
+
+    // MARK: - Private Properties
+
+    private let store: LevelStore = LevelStore()
+
+    @State private var selectedTab = 1
+    @State private var color: Color = .green
+
+    // MARK: - Body
+
+    var body: some View {
+        TabView(selection: $selectedTab.onUpdate { color = selectedTab == 1 ? .green : .purple  }) {
+            LevelView(title: store.title(forLevel: .green),
+                          dataSource: store.dataSource(forLevel: .green))
+                .tabItem({
+                    Label("Green Level", systemImage: "tree")
+                })
+                .tag(1)
+
+            LevelView(title: store.title(forLevel: .purple),
+                          dataSource: store.dataSource(forLevel: .purple))
+                .tabItem({
+                    Label("Purple Level", systemImage: "sparkles")
+                })
+                .tag(2)
+        }
+        .accentColor(color)
+    }
+}
+
+// MARK: - PreviewProvider
+
+struct MainTabView_Previews: PreviewProvider {
+
+    static var previews: some View {
+        MainTabView()
+    }
+}

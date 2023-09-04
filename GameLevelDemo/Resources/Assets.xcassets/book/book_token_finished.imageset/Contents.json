@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "book_token_finished.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
