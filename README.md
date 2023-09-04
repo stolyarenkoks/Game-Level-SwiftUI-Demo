@@ -1,9 +1,9 @@
 # Game Level SwiftUI Demo like Duolingo
-An example of a gaming UI similar to what is used in the Duolingo App is developed entirely natively using Swift and SwiftUI.
+An example of a gaming UI similar to what is used in the Duolingo App.
+Developed entirely natively using Swift and SwiftUI.
 
 ![Preview](preview.png)
 
-## Demo
 [Demo Video](demo.mov)
 
 ## Technologies
