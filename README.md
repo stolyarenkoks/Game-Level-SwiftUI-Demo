@@ -6,6 +6,12 @@ Developed entirely natively using Swift and SwiftUI.
 
 [Demo Video](demo.mov)
 
+## Installation
+The project does not require additional installation, as no dependency manager is currently used.
+
+## Build
+No additional setup is needed. Build project using Xcode.
+
 ## Technologies
 * Swift
 * SwiftUI
