@@ -26,11 +26,12 @@ struct LevelStore {
 
     // MARK: - Private Properties
 
+    /// Should be fetched from the Server, not planned to be hardcoded in the app, just for Demo purposes.
     private let greenLevelDataSource: [Section: [LevelStepModel]] = [
         .first: [
             .init(showStartLine: true, stepType: .story, stepState: .finished, roadDirection: [.right]),
             .init(stepType: .exercise, stepState: .finished, roadDirection: [.left, .right]),
-            .init(stepType: .ai, stepState: .finished, roadDirection: [.left, .right]),
+            .init(stepType: .exercise, stepState: .finished, roadDirection: [.left, .right]),
             .init(stepType: .book, stepState: .finished, roadDirection: [.left, .right]),
             .init(stepType: .game, stepState: .finished, roadDirection: [.left, .right]),
             .init(stepType: .story, stepState: .finished, roadDirection: [.left, .right]),
@@ -61,6 +62,7 @@ struct LevelStore {
         ]
     ]
 
+    /// Should be fetched from the Server, not planned to be hardcoded in the app, just for Demo purposes.
     private let purpleLevelDataSource: [Section: [LevelStepModel]] = [
         .first: [
             .init(levelType: .purple, showStartLine: true, stepType: .story, stepState: .inactive, roadDirection: [.right]),
@@ -79,7 +81,7 @@ struct LevelStore {
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
-            .init(levelType: .purple, stepType: .ai, stepState: .inactive, roadDirection: [.left, .right]),
+            .init(levelType: .purple, stepType: .exercise, stepState: .inactive, roadDirection: [.left, .right]),
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.left, .right]),
             .init(levelType: .purple, stepType: .story, stepState: .inactive, roadDirection: [.top, .left])
         ],
@@ -101,9 +103,9 @@ struct LevelStore {
     func title(forLevel level: LevelType) -> String {
         switch level {
         case .green:
-            return "Alphabets"
+            return Const.Level.greenLevelTitle
         case .purple:
-            return "Conversational Arabic"
+            return Const.Level.purpleLevelTitle
         }
     }
 

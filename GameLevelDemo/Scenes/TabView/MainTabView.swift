@@ -21,18 +21,22 @@ struct MainTabView: View {
     // MARK: - Body
 
     var body: some View {
-        TabView(selection: $selectedTab.onUpdate { color = selectedTab == 1 ? .green : .purple  }) {
+        TabView(
+            selection: $selectedTab.onUpdate { color = selectedTab == 1 ? .green : .purple  }
+        ) {
             LevelView(title: store.title(forLevel: .green),
                           dataSource: store.dataSource(forLevel: .green))
                 .tabItem({
-                    Label("Green Level", systemImage: "tree")
+                    Label(store.title(forLevel: .green),
+                          systemImage: "tree")
                 })
                 .tag(1)
 
             LevelView(title: store.title(forLevel: .purple),
                           dataSource: store.dataSource(forLevel: .purple))
                 .tabItem({
-                    Label("Purple Level", systemImage: "sparkles")
+                    Label(store.title(forLevel: .purple),
+                          systemImage: "sparkles")
                 })
                 .tag(2)
         }

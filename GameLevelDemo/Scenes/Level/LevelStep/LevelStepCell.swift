@@ -22,7 +22,7 @@ struct LevelStepCell: View {
             roadView()
 
             HStack(spacing: 0.0) {
-                Image("missing_girl")
+                Image("player-image")
                     .resizable()
                     .scaledToFit()
                     .aspectRatio(1.1, contentMode: .fit)

@@ -23,7 +23,6 @@ struct LevelStepModel: Hashable {
     // MARK: - StepType Enum
 
     enum StepType: String {
-        case ai
         case book
         case exercise
         case game

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C436D4B62A9F206800B99C22 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C436D4B52A9F206800B99C22 /* Binding+Extensions.swift */; };
+		C46A01F02AA5FF1B0068F868 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A01EF2AA5FF1B0068F868 /* Const.swift */; };
 		C4D62F982A9DF4BC003A2EEF /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D62F972A9DF4BC003A2EEF /* Application.swift */; };
 		C4D62F9A2A9DF4BC003A2EEF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D62F992A9DF4BC003A2EEF /* MainTabView.swift */; };
 		C4D62F9C2A9DF4BD003A2EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D62F9B2A9DF4BD003A2EEF /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		C436D4B52A9F206800B99C22 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		C46A01EF2AA5FF1B0068F868 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		C4D62F942A9DF4BC003A2EEF /* GameLevelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameLevelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D62F972A9DF4BC003A2EEF /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		C4D62F992A9DF4BC003A2EEF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C46A01EE2AA5FF0D0068F868 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C46A01EF2AA5FF1B0068F868 /* Const.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		C4D62F8B2A9DF4BC003A2EEF = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 		C4D62F962A9DF4BC003A2EEF /* GameLevelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C46A01EE2AA5FF0D0068F868 /* Constants */,
 				C436D4AB2A9F1AE700B99C22 /* Scenes */,
 				C436D4B42A9F204D00B99C22 /* Extensions */,
 				C436D4B22A9F1C7200B99C22 /* Resources */,
@@ -205,6 +216,7 @@
 				C4D62F982A9DF4BC003A2EEF /* Application.swift in Sources */,
 				C436D4B62A9F206800B99C22 /* Binding+Extensions.swift in Sources */,
 				C4D62FAA2A9E3C26003A2EEF /* LevelView.swift in Sources */,
+				C46A01F02AA5FF1B0068F868 /* Const.swift in Sources */,
 				C4D62FAE2A9E3DBF003A2EEF /* LevelStore.swift in Sources */,
 				C4D62FAC2A9E3C99003A2EEF /* LevelStepModel.swift in Sources */,
 			);
