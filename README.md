@@ -25,7 +25,7 @@ feature -> develop -> master
 
 ## Demo
 
-![Demo](demo.mov)
+[Demo Video](demo.mov)
 
 ## License
 Copyright © 2023 SKS. All rights reserved.
