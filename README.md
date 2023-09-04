@@ -3,6 +3,9 @@ An example of a gaming UI similar to what is used in the Duolingo App is develop
 
 ![Preview](preview.png)
 
+## Demo
+[Demo Video](demo.mov)
+
 ## Technologies
 * Swift
 * SwiftUI
@@ -22,10 +25,6 @@ GitFlow is strictly enforced on this repository. [GitFlow](https://www.atlassian
 
 ### Git Flow:
 feature -> develop -> master
-
-## Demo
-
-[Demo Video](demo.mov)
 
 ## License
 Copyright © 2023 SKS. All rights reserved.
