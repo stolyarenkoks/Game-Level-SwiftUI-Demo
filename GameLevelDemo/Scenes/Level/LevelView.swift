@@ -72,7 +72,7 @@ struct LevelView: View {
                     ForEach(Section.allCases, id: \.self) { section in
                         if let steps = dataSource[section] {
                             HStack(spacing: .zero) {
-                                ForEach(steps, id: \.self) { step in
+                                ForEach(steps) { step in
                                     LevelStepCell(step: step)
                                 }
                             }

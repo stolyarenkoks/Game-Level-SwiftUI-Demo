@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - LevelStepModel
 
-struct LevelStepModel: Hashable {
+struct LevelStepModel: Identifiable {
 
     // MARK: - RoadDirection Enum
 
@@ -41,7 +41,7 @@ struct LevelStepModel: Hashable {
 
     // MARK: - Internal Properties
 
-    let id: UUID = UUID()
+    let id = UUID()
     var levelType: LevelType = .green
     var showPlayer: Bool = false
     var showStartLine: Bool = false
